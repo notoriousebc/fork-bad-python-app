@@ -1,3 +1,4 @@
+# no-op change
 package jwt_test.jwt_test_1;
 
 import com.auth0.jwt.JWT;
@@ -54,6 +55,8 @@ abstract class App2
         } catch (JWTCreationException exception){
             //Invalid Signing configuration / Couldn't convert Claims.
         }
+
+        # no-op change
     }
 
 }
