@@ -55,6 +55,8 @@ abstract class App2
         } catch (JWTCreationException exception){
             //Invalid Signing configuration / Couldn't convert Claims.
         }
+
+        # no-op change
     }
 
 }
